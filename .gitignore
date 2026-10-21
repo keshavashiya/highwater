@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Build artifacts
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Development references (not for version control)
+_design/
+A12_QEC_DECODER_SPEC.md
+A12_QEC_DECODER_ARCHITECTURE.md
+highwater_pilot/
+progress.md
+.claude*
+.mcp.json
+CLAUDE.md
+.worktrees/
